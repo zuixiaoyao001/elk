@@ -1,0 +1,296 @@
+2018-10-01 11:46:07.730 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:276)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.zxy.demo.ElkApplication.main(ElkApplication.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:67)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:269)
+	... 14 common frames omitted
+2018-10-01 11:49:19.416 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:276)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.zxy.demo.ElkApplication.main(ElkApplication.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:67)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:269)
+	... 14 common frames omitted
+2018-10-01 11:57:15.070 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:276)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.zxy.demo.ElkApplication.main(ElkApplication.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:67)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:269)
+	... 14 common frames omitted
+2018-10-01 11:57:37.464 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:276)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.zxy.demo.ElkApplication.main(ElkApplication.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:68 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:21 - no applicable action for [FileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][FileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:16 - no applicable action for [MaxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][MaxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@30:83 - no applicable action for [triggeringPolicy], current ElementPath  is [[configuration][appender][triggeringPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@31:23 - no applicable action for [MaxFileSize], current ElementPath  is [[configuration][appender][triggeringPolicy][MaxFileSize]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:67)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:269)
+	... 14 common frames omitted
+2018-10-01 12:14:36.946 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:276)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.zxy.demo.ElkApplication.main(ElkApplication.java:11)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:67)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:269)
+	... 14 common frames omitted
+2018-10-01 12:16:00.349 [main] INFO  com.zxy.demo.ElkApplication - Starting ElkApplication on litan with PID 12408 (D:\worksheet\elk\target\classes started by litan in D:\worksheet\elk)
+2018-10-01 12:16:00.359 [main] INFO  com.zxy.demo.ElkApplication - No active profile set, falling back to default profiles: default
+2018-10-01 12:16:00.473 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a65fe7c: startup date [Mon Oct 01 12:16:00 CST 2018]; root of context hierarchy
+2018-10-01 12:16:01.396 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zxy.demo]' package. Please check your configuration.
+2018-10-01 12:16:03.014 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-10-01 12:16:03.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-10-01 12:16:03.061 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-10-01 12:16:03.061 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-01 12:16:03.094 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\java1.8\jre1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\java\oracle\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\Doctrine extensions for PHP\；D:\java\java1.8\jdk1.8\bin;JAVA_HOME%\jre\bin;D:\java\Z_review\apache-tomcat-7.0.67\bin;D:\我的软件;办公软;\svnServer\bin;%ma;en_home%\bin;D:\我的软件\数据库\putty\;C:\Pro;ram Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";D:\我的软件\专业软件\zookeeper\zookeeper-3.4.9/bin; D:\我的软件\专业软件\zookeeper\zookeeper-3.4.9/conf";D:\java\java1.8\jdk1.8\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\java软件安装资源汇总\maven建项目\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\protobufc\bin;C:\Users\litan\AppData\Local\Microsoft\WindowsApps;D:\java软件安装资源汇总\2017-6-25\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;;.]
+2018-10-01 12:16:03.273 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-10-01 12:16:03.273 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2800 ms
+2018-10-01 12:16:03.393 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-10-01 12:16:03.404 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-01 12:16:03.405 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-01 12:16:03.405 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-01 12:16:03.405 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-01 12:16:03.653 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:16:03.918 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a65fe7c: startup date [Mon Oct 01 12:16:00 CST 2018]; root of context hierarchy
+2018-10-01 12:16:04.032 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-01 12:16:04.039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-01 12:16:04.091 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:16:04.091 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:16:04.779 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-01 12:16:04.781 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-01 12:16:04.789 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-01 12:16:04.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-10-01 12:16:04.819 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-10-01 12:16:04.846 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-10-01 12:16:04.852 [main] INFO  com.zxy.demo.ElkApplication - Started ElkApplication in 5.424 seconds (JVM running for 6.044)
+2018-10-01 12:16:26.137 [main] INFO  com.zxy.demo.ElkApplicationTests - Starting ElkApplicationTests on litan with PID 15520 (started by litan in D:\worksheet\elk)
+2018-10-01 12:16:26.139 [main] INFO  com.zxy.demo.ElkApplicationTests - No active profile set, falling back to default profiles: default
+2018-10-01 12:16:26.190 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@41488b16: startup date [Mon Oct 01 12:16:26 CST 2018]; root of context hierarchy
+2018-10-01 12:16:27.180 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zxy.demo]' package. Please check your configuration.
+2018-10-01 12:16:28.335 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:16:28.656 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@41488b16: startup date [Mon Oct 01 12:16:26 CST 2018]; root of context hierarchy
+2018-10-01 12:16:28.809 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-01 12:16:28.812 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-01 12:16:28.862 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:16:28.863 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:16:29.567 [main] INFO  com.zxy.demo.ElkApplicationTests - Started ElkApplicationTests in 4.142 seconds (JVM running for 5.353)
+2018-10-01 12:16:29.965 [main] INFO  com.zxy.demo.ElkApplicationTests - message:this is first logger!
+2018-10-01 12:16:29.980 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@41488b16: startup date [Mon Oct 01 12:16:26 CST 2018]; root of context hierarchy
+2018-10-01 12:18:11.081 [main] INFO  com.zxy.demo.ElkApplication - Starting ElkApplication on litan with PID 9232 (D:\worksheet\elk\target\classes started by litan in D:\worksheet\elk)
+2018-10-01 12:18:11.087 [main] INFO  com.zxy.demo.ElkApplication - No active profile set, falling back to default profiles: default
+2018-10-01 12:18:11.169 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a65fe7c: startup date [Mon Oct 01 12:18:11 CST 2018]; root of context hierarchy
+2018-10-01 12:18:12.035 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zxy.demo]' package. Please check your configuration.
+2018-10-01 12:18:13.692 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-10-01 12:18:13.714 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-10-01 12:18:13.731 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-10-01 12:18:13.731 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-01 12:18:13.743 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\java1.8\jre1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\java\oracle\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\Doctrine extensions for PHP\；D:\java\java1.8\jdk1.8\bin;JAVA_HOME%\jre\bin;D:\java\Z_review\apache-tomcat-7.0.67\bin;D:\我的软件;办公软;\svnServer\bin;%ma;en_home%\bin;D:\我的软件\数据库\putty\;C:\Pro;ram Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";D:\我的软件\专业软件\zookeeper\zookeeper-3.4.9/bin; D:\我的软件\专业软件\zookeeper\zookeeper-3.4.9/conf";D:\java\java1.8\jdk1.8\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\java软件安装资源汇总\maven建项目\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\protobufc\bin;C:\Users\litan\AppData\Local\Microsoft\WindowsApps;D:\java软件安装资源汇总\2017-6-25\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;;.]
+2018-10-01 12:18:13.963 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-10-01 12:18:13.964 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2795 ms
+2018-10-01 12:18:14.072 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-10-01 12:18:14.080 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-01 12:18:14.081 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-01 12:18:14.081 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-01 12:18:14.081 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-01 12:18:14.262 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:18:14.513 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a65fe7c: startup date [Mon Oct 01 12:18:11 CST 2018]; root of context hierarchy
+2018-10-01 12:18:14.632 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-01 12:18:14.635 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-01 12:18:14.672 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:18:14.672 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:18:15.338 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-10-01 12:18:15.340 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-01 12:18:15.347 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-01 12:18:15.364 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-10-01 12:18:15.384 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-10-01 12:18:15.410 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-10-01 12:18:15.415 [main] INFO  com.zxy.demo.ElkApplication - Started ElkApplication in 5.028 seconds (JVM running for 5.665)
+2018-10-01 12:18:36.806 [main] INFO  com.zxy.demo.ElkApplicationTests - Starting ElkApplicationTests on litan with PID 13580 (started by litan in D:\worksheet\elk)
+2018-10-01 12:18:36.811 [main] INFO  com.zxy.demo.ElkApplicationTests - No active profile set, falling back to default profiles: default
+2018-10-01 12:18:36.870 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@78fa769e: startup date [Mon Oct 01 12:18:36 CST 2018]; root of context hierarchy
+2018-10-01 12:18:37.789 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zxy.demo]' package. Please check your configuration.
+2018-10-01 12:18:38.822 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:18:39.126 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@78fa769e: startup date [Mon Oct 01 12:18:36 CST 2018]; root of context hierarchy
+2018-10-01 12:18:39.246 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-01 12:18:39.249 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-01 12:18:39.295 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:18:39.296 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:18:39.993 [main] INFO  com.zxy.demo.ElkApplicationTests - Started ElkApplicationTests in 3.902 seconds (JVM running for 5.17)
+2018-10-01 12:18:40.445 [main] INFO  com.zxy.demo.ElkApplicationTests - message:this is first logger!
+2018-10-01 12:18:40.456 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@78fa769e: startup date [Mon Oct 01 12:18:36 CST 2018]; root of context hierarchy
+2018-10-01 12:37:26.034 {main} INFO  com.zxy.demo.ElkApplication =======> Starting ElkApplication on litan with PID 16528 (D:\worksheet\elk\target\classes started by litan in D:\worksheet\elk)
+2018-10-01 12:37:26.042 {main} INFO  com.zxy.demo.ElkApplication =======> No active profile set, falling back to default profiles: default
+2018-10-01 12:37:26.127 {main} INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext =======> Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a65fe7c: startup date [Mon Oct 01 12:37:26 CST 2018]; root of context hierarchy
+2018-10-01 12:37:27.096 {main} WARN  org.mybatis.spring.mapper.ClassPathMapperScanner =======> No MyBatis mapper was found in '[com.zxy.demo]' package. Please check your configuration.
+2018-10-01 12:37:28.741 {main} INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer =======> Tomcat initialized with port(s): 8080 (http)
+2018-10-01 12:37:28.770 {main} INFO  org.apache.coyote.http11.Http11NioProtocol =======> Initializing ProtocolHandler ["http-nio-8080"]
+2018-10-01 12:37:28.785 {main} INFO  org.apache.catalina.core.StandardService =======> Starting service [Tomcat]
+2018-10-01 12:37:28.786 {main} INFO  org.apache.catalina.core.StandardEngine =======> Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-10-01 12:37:28.803 {localhost-startStop-1} INFO  org.apache.catalina.core.AprLifecycleListener =======> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\java1.8\jre1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\java\oracle\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 & MySQL Utilities 1.5.2 1.5\Doctrine extensions for PHP\；D:\java\java1.8\jdk1.8\bin;JAVA_HOME%\jre\bin;D:\java\Z_review\apache-tomcat-7.0.67\bin;D:\我的软件;办公软;\svnServer\bin;%ma;en_home%\bin;D:\我的软件\数据库\putty\;C:\Pro;ram Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";D:\我的软件\专业软件\zookeeper\zookeeper-3.4.9/bin; D:\我的软件\专业软件\zookeeper\zookeeper-3.4.9/conf";D:\java\java1.8\jdk1.8\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;D:\java软件安装资源汇总\maven建项目\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\protobufc\bin;C:\Users\litan\AppData\Local\Microsoft\WindowsApps;D:\java软件安装资源汇总\2017-6-25\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;;.]
+2018-10-01 12:37:28.985 {localhost-startStop-1} INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] =======> Initializing Spring embedded WebApplicationContext
+2018-10-01 12:37:28.986 {localhost-startStop-1} INFO  org.springframework.web.context.ContextLoader =======> Root WebApplicationContext: initialization completed in 2858 ms
+2018-10-01 12:37:29.104 {localhost-startStop-1} INFO  o.s.boot.web.servlet.ServletRegistrationBean =======> Servlet dispatcherServlet mapped to [/]
+2018-10-01 12:37:29.111 {localhost-startStop-1} INFO  o.s.boot.web.servlet.FilterRegistrationBean =======> Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-01 12:37:29.111 {localhost-startStop-1} INFO  o.s.boot.web.servlet.FilterRegistrationBean =======> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-01 12:37:29.111 {localhost-startStop-1} INFO  o.s.boot.web.servlet.FilterRegistrationBean =======> Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-01 12:37:29.111 {localhost-startStop-1} INFO  o.s.boot.web.servlet.FilterRegistrationBean =======> Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-01 12:37:29.324 {main} INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping =======> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:37:29.613 {main} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter =======> Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2a65fe7c: startup date [Mon Oct 01 12:37:26 CST 2018]; root of context hierarchy
+2018-10-01 12:37:29.752 {main} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping =======> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-01 12:37:29.755 {main} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping =======> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-01 12:37:29.799 {main} INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping =======> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:37:29.799 {main} INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping =======> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:37:30.566 {main} INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter =======> Registering beans for JMX exposure on startup
+2018-10-01 12:37:30.568 {main} INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter =======> Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-01 12:37:30.574 {main} INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter =======> Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-01 12:37:30.591 {main} INFO  org.apache.coyote.http11.Http11NioProtocol =======> Starting ProtocolHandler ["http-nio-8080"]
+2018-10-01 12:37:30.609 {main} INFO  org.apache.tomcat.util.net.NioSelectorPool =======> Using a shared selector for servlet write/read
+2018-10-01 12:37:30.638 {main} INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer =======> Tomcat started on port(s): 8080 (http) with context path ''
+2018-10-01 12:37:30.643 {main} INFO  com.zxy.demo.ElkApplication =======> Started ElkApplication in 5.452 seconds (JVM running for 6.109)
+2018-10-01 12:37:40.026 {main} INFO  com.zxy.demo.ElkApplicationTests =======> Starting ElkApplicationTests on litan with PID 1344 (started by litan in D:\worksheet\elk)
+2018-10-01 12:37:40.029 {main} INFO  com.zxy.demo.ElkApplicationTests =======> No active profile set, falling back to default profiles: default
+2018-10-01 12:37:40.087 {main} INFO  o.s.w.context.support.GenericWebApplicationContext =======> Refreshing org.springframework.web.context.support.GenericWebApplicationContext@41488b16: startup date [Mon Oct 01 12:37:40 CST 2018]; root of context hierarchy
+2018-10-01 12:37:41.124 {main} WARN  org.mybatis.spring.mapper.ClassPathMapperScanner =======> No MyBatis mapper was found in '[com.zxy.demo]' package. Please check your configuration.
+2018-10-01 12:37:42.261 {main} INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping =======> Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:37:42.586 {main} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter =======> Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@41488b16: startup date [Mon Oct 01 12:37:40 CST 2018]; root of context hierarchy
+2018-10-01 12:37:42.716 {main} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping =======> Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-01 12:37:42.718 {main} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping =======> Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-01 12:37:42.784 {main} INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping =======> Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:37:42.784 {main} INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping =======> Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-01 12:37:43.579 {main} INFO  com.zxy.demo.ElkApplicationTests =======> Started ElkApplicationTests in 4.376 seconds (JVM running for 5.603)
+2018-10-01 12:37:43.978 {main} INFO  com.zxy.demo.ElkApplicationTests =======> message:this is first logger!
+2018-10-01 12:37:43.991 {Thread-2} INFO  o.s.w.context.support.GenericWebApplicationContext =======> Closing org.springframework.web.context.support.GenericWebApplicationContext@41488b16: startup date [Mon Oct 01 12:37:40 CST 2018]; root of context hierarchy
